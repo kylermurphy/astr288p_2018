@@ -1,6 +1,6 @@
 # Lecture 1:  Introduction to UNIX
 
-## Command Line unix vs. desktop unix (Graphical User Interface)
+## Command Line unix (CLI) vs. desktop unix (Graphical User Interface, GUI)
 
   - GUI: a dime a dozen (and new ones keep coming...)
   - GUI: Mac (aqua) and Linux (X11)
@@ -37,13 +37,18 @@ We will be using **bash**.
    Q2-1: how do you know which shell you are running?
 
    A2-1: as is often in UNIX, several answers possible, that all need human parsing
-   - **echo $SHELL** 
-   - **grep $USER /etc/passwd**
-   - **ps**
-   
+   ````
+   echo $SHELL 
+   grep $USER  /etc/passwd
+   ps
+   ````
    Q2-2: What are the allowed shells on your unix system?
    
-   A2-2: **cat /etc/shells**
+   A2-2: Use **cat** to view whats in **/etc/shells** or **chsh --lish-shells**
+   ````
+   cat /etc/shells
+   chsh --lish-shells
+   ````
 
    Q2-3: If a shell is not listed in **/etc/shells**, can I still use it?
 
