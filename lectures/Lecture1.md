@@ -214,5 +214,7 @@ you should be able to see this doucment!
 
 This **Lecture1.md** file is the file you are reading now. Most humans can read it, but it does read a little nicer once it has been formatted by a web browser, instead of straight to the terminal! Or you can read it directly on github on
 https://github.com/kylermurphy/astr288p_2018/blob/master/lectures/Lecture1.md
-  less lectures/Lecture1.md
 
+````
+less lectures/Lecture1.md
+````
