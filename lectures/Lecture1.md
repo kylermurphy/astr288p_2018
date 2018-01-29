@@ -190,9 +190,9 @@ If you use the **csh** variety, the **.login** and **.cshrc** files control whic
 
 We will come back to **git**, but the following commands will download the "astr288p" repository of codes and documentation that are helpful for this class.
 ```
-  git clone https://github.com/SeanCGriffin/astr288p_student
+  git clone https://github.com/kylermurphy/astr288p_2018
   ls
-  cd astr288p_student
+  cd astr288p_2018
   ls -la
 ```
 But wait -- there's nothing but the course outline in the repository!
@@ -212,7 +212,7 @@ Now, if we do
 
 you should be able to see this doucment!
 
-This **Lecture1.md** file is the file you are reading now. Most humans can read it, but it does read a little nicer once it has been formatted by a web browser, instead of straight to the terminal! Or you can read it directly on github on
+This **Lecture1.md** file is the file you are reading now. Most humans can read it, but it does read a little nicer once it has been formatted by a web browser, instead of straight to the terminal! Or you can read it directly on github at
 https://github.com/kylermurphy/astr288p_2018/blob/master/lectures/Lecture1.md
 
 ````
