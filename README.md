@@ -10,4 +10,4 @@ An excellent resource for the **mv** command can be found here, https://www.howt
 
 Write a bash script that when run in the current directory will generate two files, *AlphaList.log* and *RevAlphaList.log*. The file *AlphaList.log* should contain the path of the current dirctory on the first line followed by a list of the files in the current directory in alphabetical order. The file *RevAlphaList.log* should contain the path of the current directory followed by a list of files in the directory in reverse alphabetical order. Both log files should also contain the permissions for each file in the directory. **NOTE**, you can name the script what ever you want but in general the names of scripts should (at least vaguely) reflect their utility. Test the script on your home directory.
 
-The page https://www.howtoforge.com/linux-ls-command/ contains examples for the *ls* command. 
+The page https://www.howtoforge.com/linux-ls-command/ contains examples for the **ls** command. 
