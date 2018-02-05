@@ -5,7 +5,7 @@
 ## Updating your *astr288p* repo
 Any time you need to update your **astr288p** git repo, the **git pull** command will do this:
 ```
-   cd ~/ASTR288P/astr288p_student      # make sure you are in one of the 'astr288p' directories
+   cd ~/ASTR288P/astr288p_2018      # make sure you are in one of the 'astr288p' directories
    git status                 		   # first make  sure you don't have anything modified
    git pull                            # warnings are possible here if there are conflicts
 ```
