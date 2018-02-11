@@ -72,7 +72,7 @@ We can add directories to the path
 
 ## 3. Variables
 
-In many shells, there are a dumber of variables designed to make life easier
+In many shells, there are a number of variables designed to make life easier
 
   - $HOME -- The path to your home directory
   - ~ (tilde) -- This is an alias to $HOME
@@ -82,7 +82,7 @@ In many shells, there are a dumber of variables designed to make life easier
  
 ### Creating new variables  
 
-In bash, 
+In bash (different in other shells), 
 ```
     export WORKDIR=${HOME}/some/long/path/to/avoid/typing
 ```
