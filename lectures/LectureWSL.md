@@ -39,7 +39,9 @@ If your build is earlier then 16215, follow the instruction in section 4.
 
 ### Windows build 16215 and later
 - Open Microsoft Store 
+
 **-> Start -> "Microsoft Store"**
+
 - Search *Linux* and choose a distribution (OpenSUSE, SLES, Ubuntu)
 - I recommend Ubuntu as it is popular and has significant resources for help. 
 - Select **Get** or **Install** and choose where you want the app to be saved (likely your main disk, C).
@@ -52,8 +54,11 @@ If your build is earlier then 16215, follow the instruction in section 4.
 ### Pre 16215 build
 
 - Turn on *Developer Mode* for windows. This will give you access to the linux subsytem.
+
 **-> Settings -> Update and Security -> For Developers ->** *Developer Mode*
+
 - Open a command propmpt and run **bash**. This will download and install Ubuntu onto your system. A "Bash on Ubuntu on Windows" shortcut will be added to the start menu. 
+
 **-> Start -> "CMD"**
 ```
 bash
