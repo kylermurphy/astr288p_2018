@@ -77,7 +77,7 @@ cd /mnt/c/           # This will take you to your C drive on windows
 cd /mnt/c/Users/Kyle # My home directory on windows. 
 ```  
 
-For instance, for this class if you want to write a shell script for Homework 1 using an editor you've installed on Windows be sure to save the script somewhere in your Windows system (ASTR288 in your home dirctory). You can then navigate to that directory in the terminal and run the script there.
+For instance, for this class if you want to write a shell script for Homework 1 using an editor you've installed on Windows be sure to save the script somewhere in your Windows file system (ASTR288 in your home dirctory located on the **C:/** drive). You can then navigate to that directory in the terminal and run the script there. Similarly if you're using **git** to download lectures saving them to the Windows files system will allow you to access them with both Window and Linux applications.
 
 Alternatively you can write the script using Vi in the terminal, save it to the linux file system and run the script from there.
 
