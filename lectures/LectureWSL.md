@@ -12,7 +12,8 @@ Additional WSL resources can be found at:
 - Windows developer blog, https://blogs.msdn.microsoft.com/wsl/
 - Fun with WSL, https://blogs.windows.com/buildingapps/2016/07/22/fun-with-the-windows-subsystem-for-linux/#B5qbkdEfrHJIipXc.97
 - Anaconda and Python on WSL (WSL and Python setup, *we will cover this in future lectures*), https://www.scivision.co/anaconda-python-with-windows-subsystem-for-linux/, and more at https://www.scivision.co/blog
-- Windows for Data Science (similar to the above): https://blogs.windows.com/buildingapps/2016/07/22/fun-with-the-windows-subsystem-for-linux/#B5qbkdEfrHJIipXc.97
+- X11 for windows: https://www.scivision.co/x11-gui-windows-subsystem-for-linux/
+- Windows for Data Science (similar to the above): https://joshpeng.github.io/post/wsl/#configure-x-and-fix-dbus
 
 
 ## 1. Enable WSL
