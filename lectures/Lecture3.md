@@ -5,7 +5,7 @@ Lecture 3:  Remote sessions, manipulating your $PATH, login scripts
 
 ### Remote login
 
-Remote access or remot login allows you to remotely connect to another machine via a terminal. We use **ssh**:
+Remote access or remote login allows you to remotely connect to another machine via a terminal. We use **ssh**:
 
 ```
 	ssh user@remote
@@ -30,7 +30,7 @@ Remote logins can *speed* some processes up, like installing software in a direc
 
 ### Remote file transfer
 
-If you want to move files from one computer to another, there are several tools avaialbe. Arguably the simplest is **scp** (**s**ecure **c**o**p**y).
+If you want to move files from one computer to another, there are several tools available. Arguably the simplest is **scp** (**s**ecure **c**o**p**y).
 
 To copy a file to a remote machine:
 ```
@@ -155,7 +155,7 @@ At some point you might see the message **no module named '...'**, this is becau
 
 If you need more, download the full **Anaconda** version. With this you get a nice graphical install and by default more functionality such as additional modules including jupyter and spyder. See https://www.continuum.io. 
 
-### On Linux:
+### On Linux (and WSL):
 ```
   df .
   wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh 
@@ -198,6 +198,7 @@ See what modules you have installed:
   conda list
 ```
 
+Documentation: https://conda.io/docs/
 
 ### "Hello World!" in python
 
@@ -252,7 +253,7 @@ or more generally
 
 GitHub Readme Instant Preview, **GRIP**: a command that allows you to preview [*MarkDown*](https://en.wikipedia.org/wiki/Markdown) files in a web browser. Allows you to view *MarkDown* while offline. 
 
-These lecture notes are in md(*MarkDown*) format, they are simple text files that are a lightweight markup language, and they format nicely in a web browsers.
+These lecture notes are in md (*MarkDown*) format, they are simple text files that are a lightweight markup language, and they format nicely in a web browsers.
 
 Install and use it as follows
 ```
@@ -260,10 +261,10 @@ Install and use it as follows
    grip Lecture2.md
    grip Lecture3.md localhost:6420
 ```
-pip is just another package manager, like when we did **conda install** previously.
+**pip** is just another package manager, like when we did **conda install** previously.
 Some packages need to be installed via **pip**, but always try **conda install** first. 
 
 Because python also has a built-in http (web) server, you can now open a URL on
-[http://localhost:6419](http://localhost:6419), or
+[http://localhost:6419](http://localhost:6419) the default for **grip** or
 [http://localhost:6420](http://localhost:6420) in the second case. Just make sure
 to use unique port numbers.
