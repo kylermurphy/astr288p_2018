@@ -19,7 +19,7 @@ Additional WSL resources can be found at:
 
 Open PowerShell (Windows version of a Shell/Terminal) as an Administrator (this may take a few minutes). 
 
-**-> Start -> "Windows Power Shell" -> Right Click> ->Run as Adminstrator**
+**-> Start -> "Windows Power Shell" -> <Right Click> ->Run as Adminstrator**
 
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
@@ -38,11 +38,13 @@ If your build is earlier then 16215, follow the instruction in section 4.
 ## 3. Fall Creators Update and Later 
 
 ### Windows build 16215 and later
-- Open Microsoft Store **-> Start -> "Microsoft Store"**
+- Open Microsoft Store 
+**-> Start -> "Microsoft Store"**
 - Search *Linux* and choose a distribution (OpenSUSE, SLES, Ubuntu)
-- I recommend Ubuntu as it is quite popular and has significant resources for help. 
-- Select **Get** and chose where you want the app to be saved (likely your main disk, C)
-- Create a UNIX username and password
+- I recommend Ubuntu as it is popular and has significant resources for help. 
+- Select **Get** or **Install** and choose where you want the app to be saved (likely your main disk, C).
+- Select **Launch** to install the distribution after downloading.
+- Create a UNIX username and password. **Be sure to remember you password as you will need this to update and install new features/programs.**
 
 
 ## 4. Earlier Windows 10 builds 
@@ -50,22 +52,23 @@ If your build is earlier then 16215, follow the instruction in section 4.
 ### Pre 16215 build
 
 - Turn on *Developer Mode* for windows. This will give you access to the linux subsytem.
-**-> Settings -> Update and Security -> For Developers -> Developer Mode**
-- Open a command propmpt and run bash. This will download and install Ubuntu onto your system. A "Bsh on Ubuntu on Windows" shortcut will be added to the start menu. 
+**-> Settings -> Update and Security -> For Developers ->** *Developer Mode*
+- Open a command propmpt and run **bash**. This will download and install Ubuntu onto your system. A "Bash on Ubuntu on Windows" shortcut will be added to the start menu. 
 **-> Start -> "CMD"**
 ```
 bash
 ```
-- Launch Ubuntu either through the command prompt with **bash** or through the start menu short cut. 
-- When you first launch Ubuntu you will need to set up a UNIX username and password. 
-- Following the setup you can update Ubuntu to the latest distribution using
+- Launch Ubuntu either through the command prompt with **bash** or through the start menu shortcut. 
+- When you first launch Ubuntu you will need to set up a UNIX username and password. **Be sure to remember you password as you will need this to update and install new features/programs.**
+- Following the setup you can update Ubuntu to the latest distribution using:
 ```
-apt-get update
+apt-get update  # you may need to prepend the command with sudo
+apt-get upgrade # which runs the command as 'root' or with 'adminstrative privileges' 
 ```
 
 # THE LINUX FILE SYSTEM
 
-**Never edit, create, or modify files within the linux file system in WSL with a windows app**
+**Never edit, create, or modify files within the linux file system in WSL with a windows app!**
 
 This can lead to a corruption of data and may require you to uninstall and reinstall the linux environment. This is because Linux and Windows handle file permissions differently (https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/).
 
