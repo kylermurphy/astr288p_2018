@@ -95,3 +95,34 @@ Alternatively you can write the script using Vi in the terminal, save it to the 
 1. DO  store files in the Windows filesystem if you want to be able to access and modify them with both Windows and Linux tools. 
 2. DO NOT access, create, or modify Linux files from Windowss, apps, tools, scripts or consoles (File Explorer)
 
+## A few more words on WSL 
+
+Windows Subsytem for Linux does not have X11 installed. To run GUI programs you need to install an X11 client of which there are many. [*Xming*](https://sourceforge.net/projects/xming/) is a popular and fairly easy to use.
+
+If you install *Xming* opening/running the program will allow you to open windows through WSL and also when using **ssh**. Once installed add the device to your .bashrc and install the X11 utilities.
+
+**NOTE** Xming will ask to add an exception to the windows firewall. **Never add an exception to the firewall**. Press *cancel* when the windows promp comes up.   
+
+```
+echo "export DISPLAY=localhost:0.0" >> ~/.bashrc
+sudo apt-get install x11-apps
+``` 
+
+As noted above, the linux file system can only be accessed by linux applications. **Vi** is avialbe in WSL to edit files; however, you may want a more *user friendly* editor. **Sublime** is excellent resource for this as it is simple to install. Following lecture 2:
+
+```
+cd ~      
+mkdir software      # Make a new directory
+cd software         # Move to it
+wget https://download.sublimetext.com/sublime_text_3_build_3143_x64.tar.bz2
+tar -xvvf sublime_text_3<Tab-complete> 
+sudo apt-get instal libgtk2.0-0 #graphical user interface library
+
+cd ~
+./software/sublime_text_3/sublime_text
+```
+
+You should now be able to run **sublime_text** from the sublime directory for text editing or add it to your path in the *.bashrc* file. You may have to update the link above when a new distribution is released. 
+
+
+
