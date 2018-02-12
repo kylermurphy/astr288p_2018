@@ -50,7 +50,9 @@ echo . ~/.bashrc >> .bash_profile
 
 **NOTE** the *case* and *if* statements in the **.bashrc** file. These are control flow statements which we will discuss in the next lecture. Can you figure out what they do? 
 
-The **PS1** variable is your command propmpt variable in the terminal (typically **-bash-4.1$**. The code in the **.bashrc** file modifies the command prompt so that you can make it more *user friendly*. The following websites give detailed overviews of how to modify the PS1 variable so that you can desing your own prompt.
+The **PS1** variable is your command propmpt variable in the terminal (set now as **-bash-4.1$**). The code in the **.bashrc** file modifies the command prompt so that you can make it more *user friendly*. To get color uncomment the variable *force_color_propmpt*.  
+
+The following websites give detailed overviews of how to modify the PS1 variable so that you can desing your own prompt.
 
 - https://www.howtogeek.com/307701/how-to-customize-and-colorize-your-bash-prompt/ 
 - http://ezprompt.net/
