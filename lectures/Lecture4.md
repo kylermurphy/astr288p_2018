@@ -68,5 +68,6 @@ jupyter notebook
 Now watch your default browser opening a new tab. Navigave to your **astr288p/notebooks** folder, where
 you should see some *.ipynb* files.  The rest of this lecture will be taking place in the notebooks.
 
-We will start with **Lecture04_01_intro.ipynb**
+Today we will be working with: 
+- **Lecture04_01_intro.ipynb**, **Lecture04_02_flow.ipynb**
 
