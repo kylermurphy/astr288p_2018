@@ -30,6 +30,12 @@ My Miniconda should work as well:
 echo 'export PATH="/n/ursa/A288P/krmurphy/ASTR288P/software/sublime_text_3/:$PATH"' >> .bashrc
 ```
 
+You can also copy my ```.bashrc``` file to you home directory
+```
+cd
+cp /n/ursa/A288P/krmurphy/.bashrc .
+```
+
 *A note on remote logins:* when you are logged onto URSA you are running a terminal/shell directly on URSA and hence are using the operating system installed on URSA. For this class when remotely logged onto URSA you will be in a linux system regardless if you login from a Windows of Mac machine. 
 
 *A note on WSL:* you may not be able to change a files permissions in WSL if you are in the Windows Files System. However if you transfer a file from the Windows Files System to a Linux File System (such as URSA) you will be able to modify a files permissions again using ```chmod```.
