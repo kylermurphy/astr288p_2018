@@ -1,0 +1,13 @@
+*~
+*.pyc
+__pycache__/
+\#*\#
+.\#*
+*.aux
+*.log
+*.nav
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.out
